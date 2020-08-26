@@ -34,6 +34,9 @@ public class HighLowGame {
 				JOptionPane.showMessageDialog(null, "to low");
 
 			}
+			if (guest<num) {
+			JOptionPane.showMessageDialog(null, "you lose");
+			}
 		}
 		// 1. Ask the user for a guess using a pop-up window, and save their response
 
